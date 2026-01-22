@@ -126,6 +126,7 @@
 
     .main-tovar-box {
         font-size: 24px;
+        justify-content: space-around;
 
 
         &__box {
@@ -150,7 +151,7 @@
 
     .footer {
         margin-top: 32px;
-        width: 380px;
+        
 
         &__logo {
             display: none;
