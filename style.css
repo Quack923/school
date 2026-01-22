@@ -66,6 +66,7 @@ body {
 
 .header__input {
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   width: 288px;
   height: 41px;
   flex: none;
@@ -74,7 +75,6 @@ body {
   border-radius: 20px;
   background: none;
   color: #FFFFFF;
-  padding-left: 31px;
 }
 
 .header__input::-moz-placeholder {
@@ -428,7 +428,6 @@ body {
 .footer__icons {
   display: flex;
   gap: 20px;
-  justify-content: space-between;
   padding-top: 12px;
 }
 
@@ -441,7 +440,6 @@ body {
   font-size: 12px;
   line-height: 16px;
   color: #000000;
-  padding-bottom: 16px;
 }
 
 .footer__em {
@@ -478,7 +476,7 @@ body {
   font-size: 15px;
   line-height: 18px;
   color: #000000;
-  margin-top: 8px;
+  font-size: 12px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -1309,6 +1307,7 @@ body {
   }
   .main-tovar-box {
     font-size: 24px;
+    justify-content: space-around;
   }
   .main-tovar-box__box {
     gap: 36px;
@@ -1324,7 +1323,6 @@ body {
   }
   .footer {
     margin-top: 32px;
-    width: 380px;
   }
   .footer__logo {
     display: none;
@@ -1537,7 +1535,7 @@ body {
 @media (min-width: 768px) and (max-width: 833px) {
   .center {
     padding-left: 24px;
-    padding-right: 24px;  
+    padding-right: 24px;
   }
   .special-product__item {
     width: 345px;
